@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shaked.ohad/react-mosaic.git"
+    "url": "git+https://github.com/shakedohad/react-mosaic"
   },
   "scripts": {
     "start": "react-scripts start",
