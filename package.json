@@ -1,0 +1,40 @@
+{
+  "name": "react-mosaic",
+  "version": "1.0.0",
+  "description": "mosaic for react",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaked.ohad/react-mosaic.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "babel src/lib --out-dir dist --copy-files",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mosaic",
+    "react"
+  ],
+  "author": "Ohad Shaked",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@hot-loader/react-dom": "^16.8.0-alpha.0",
+    "react": "^16.13.1",
+    "react-dom": "npm:@hot-loader/react-dom@^17.0.0-rc.2",
+    "react-scripts": "3.4.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "file-loader": "^6.2.0"
+  }
+}
